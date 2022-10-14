@@ -16,6 +16,7 @@ public abstract class Nave_ {
 	public static volatile ListAttribute<Nave, Mision> misiones;
 	public static volatile SingularAttribute<Nave, String> nombre;
 	public static volatile SingularAttribute<Nave, String> combustible;
+	public static volatile SingularAttribute<Nave, Integer> activo;
 
 }
 

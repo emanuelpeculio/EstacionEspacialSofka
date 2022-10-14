@@ -179,7 +179,7 @@ public class AltaPlaneta extends javax.swing.JFrame {
             PD.setActivo(1);
             PD.setCodigo(Integer.parseInt(txtCod.getText()));
             PD.setNombre(txtNom.getText());
-            PD.setTamaño(txtTamanio.getText());
+            PD.setTamanio(txtTamanio.getText());
             PD.setDescripcion(txtDescrip.getText());
             conexionBD.getInstance().persist(PD);
             JOptionPane.showMessageDialog(this, "Se ha creado el planeta correctamente", "ÉXITO", JOptionPane.INFORMATION_MESSAGE);

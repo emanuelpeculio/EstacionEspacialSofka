@@ -45,7 +45,7 @@ public class ListaPlanetas extends javax.swing.JFrame {
         planetas = Fabrica.getInstancia().getInterfazPlaneta().getAllPlanetas();
         for (int i = 0; i < planetas.size(); i++) {
             PlanetaDestino p=(PlanetaDestino)planetas.get(i);
-            Object[] dat = {p.getCodigo(),p.getDescripcion(),p.getNombre(),p.getTamaño()};
+            Object[] dat = {p.getCodigo(),p.getDescripcion(),p.getNombre(),p.getTamanio()};
             modelo.addRow(dat);
         }
         DefaultTableCellRenderer Alinear = new DefaultTableCellRenderer();

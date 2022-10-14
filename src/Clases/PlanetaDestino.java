@@ -23,7 +23,7 @@ public class PlanetaDestino implements Serializable{
     @Id
     private int codigo;
     private String nombre;
-    private String tamaño;
+    private String tamanio;
     private String descripcion;
     private int activo;
     //Relaciones
@@ -46,12 +46,12 @@ public class PlanetaDestino implements Serializable{
         this.nombre = nombre;
     }
 
-    public String getTamaño() {
-        return tamaño;
+    public String getTamanio() {
+        return tamanio;
     }
 
-    public void setTamaño(String tamaño) {
-        this.tamaño = tamaño;
+    public void setTamanio(String tamanio) {
+        this.tamanio = tamanio;
     }
 
     public String getDescripcion() {

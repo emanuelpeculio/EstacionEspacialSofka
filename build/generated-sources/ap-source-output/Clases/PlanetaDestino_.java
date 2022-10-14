@@ -11,9 +11,10 @@ public abstract class PlanetaDestino_ {
 
 	public static volatile SingularAttribute<PlanetaDestino, String> descripcion;
 	public static volatile SingularAttribute<PlanetaDestino, Integer> codigo;
-	public static volatile SingularAttribute<PlanetaDestino, String> tamaño;
+	public static volatile SingularAttribute<PlanetaDestino, String> tamanio;
 	public static volatile ListAttribute<PlanetaDestino, Mision> misiones;
 	public static volatile SingularAttribute<PlanetaDestino, String> nombre;
+	public static volatile SingularAttribute<PlanetaDestino, Integer> activo;
 
 }
 
