@@ -345,6 +345,7 @@ public class InfoNave extends javax.swing.JFrame {
         switch (combo_tipo.getSelectedItem().toString()) {
             case "Lanzadera":
                 Lanzadera l = new Lanzadera();
+                l.setActivo(1);
                 l.setCodigo(Integer.parseInt(txtCod.getText()));
                 l.setNombre(txtNom.getText());
                 l.setPeso(Double.parseDouble(txtPeso.getText()));
@@ -357,6 +358,7 @@ public class InfoNave extends javax.swing.JFrame {
                 break;
             case "No Tripulada":
                 NoTripulado nt = new NoTripulado();
+                nt.setActivo(1);
                 nt.setCodigo(Integer.parseInt(txtCod.getText()));
                 nt.setNombre(txtNom.getText());
                 nt.setEstado("En Base");
@@ -369,6 +371,7 @@ public class InfoNave extends javax.swing.JFrame {
                 break;
             case "Tripulada":
                 Tripulado t = new Tripulado();
+                t.setActivo(1);
                 t.setCodigo(Integer.parseInt(txtCod.getText()));
                 t.setNombre(txtNom.getText());
                 t.setEstado("En Base");

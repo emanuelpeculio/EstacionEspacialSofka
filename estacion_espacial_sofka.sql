@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Servidor: 127.0.0.1
--- Tiempo de generación: 14-10-2022 a las 21:58:56
+-- Tiempo de generación: 14-10-2022 a las 23:09:14
 -- Versión del servidor: 10.4.14-MariaDB
 -- Versión de PHP: 7.4.10
 
@@ -37,7 +37,10 @@ CREATE TABLE `lanzadera` (
 --
 
 INSERT INTO `lanzadera` (`propulsion`, `codigo`) VALUES
-('123123', 123128);
+('128218 t', 1),
+('3500 t', 2),
+('3300 t', 3),
+('2700 t', 10);
 
 -- --------------------------------------------------------
 
@@ -76,7 +79,16 @@ CREATE TABLE `nave` (
 --
 
 INSERT INTO `nave` (`codigo`, `activo`, `combustible`, `estado`, `nombre`, `peso`, `tipo`) VALUES
-(123128, 1, 'Comb', 'En Base', 'Nave', 129391, 'Lanzadera');
+(1, 1, 'Combustión', 'En Base', 'Apolo I', 2800000, 'Lanzadera'),
+(2, 1, 'Propelente liquido', 'En Base', 'Apolo II', 2900000, 'Lanzadera'),
+(3, 1, 'Quimico solido', 'En Base', 'Saturno V', 260000, 'Lanzadera'),
+(4, 1, 'Celdas fotovoltaicas', 'En Base', 'Satelite I', 280000, 'No Tripulada'),
+(5, 1, 'Comb', 'En Base', 'Mariner X', 1800, 'No Tripulada'),
+(6, 1, 'Hidracina', 'En Base', 'Mariner IV', 1500, 'No Tripulada'),
+(7, 1, 'Comb', 'En Base', 'Skylab', 770000, 'Tripulada'),
+(8, 1, 'Comb', 'En Base', 'Saylut', 198000, 'Tripulada'),
+(9, 1, 'Comb', 'En Base', 'Estacion Esp. Internacional', 420000, 'Tripulada'),
+(10, 0, 'Combustible', 'Misión en curso', 'Nave Prueba', 280000, 'Lanzadera');
 
 -- --------------------------------------------------------
 
@@ -88,6 +100,15 @@ CREATE TABLE `notripulado` (
   `orbita` varchar(255) DEFAULT NULL,
   `codigo` int(11) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+
+--
+-- Volcado de datos para la tabla `notripulado`
+--
+
+INSERT INTO `notripulado` (`orbita`, `codigo`) VALUES
+('Orbita Marte', 4),
+('Orbita el Sol', 5),
+('Orbita Marte, sin energia', 6);
 
 -- --------------------------------------------------------
 
@@ -103,6 +124,13 @@ CREATE TABLE `planetadestino` (
   `tamanio` varchar(255) DEFAULT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
+--
+-- Volcado de datos para la tabla `planetadestino`
+--
+
+INSERT INTO `planetadestino` (`codigo`, `activo`, `descripcion`, `nombre`, `tamanio`) VALUES
+(1, 0, 'Venus es un planeta', 'Venus', '280000 km');
+
 -- --------------------------------------------------------
 
 --
@@ -114,6 +142,15 @@ CREATE TABLE `tripulado` (
   `orbita` varchar(255) DEFAULT NULL,
   `codigo` int(11) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+
+--
+-- Volcado de datos para la tabla `tripulado`
+--
+
+INSERT INTO `tripulado` (`cant_pasajeros`, `orbita`, `codigo`) VALUES
+(3, 'Orbitaba a 435 km de la Tierra', 7),
+(3, 'Orbitaba 248,9 km de la Tierra', 8),
+(7, 'a 386 km de la Tierra', 9);
 
 --
 -- Índices para tablas volcadas
