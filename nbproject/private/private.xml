@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-private xmlns="http://www.netbeans.org/ns/project-private/1">
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
+    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+        <group>
+            <file>file:/C:/Users/Usuario/OneDrive/Documentos/NetBeansProjects/Estacion_Espacial_Sofka/src/Interfaces/InterfazNave.java</file>
+            <file>file:/C:/Users/Usuario/OneDrive/Documentos/NetBeansProjects/Estacion_Espacial_Sofka/src/Controladores/controladorMision.java</file>
+            <file>file:/C:/Users/Usuario/OneDrive/Documentos/NetBeansProjects/Estacion_Espacial_Sofka/src/Clases/Nave.java</file>
+            <file>file:/C:/Users/Usuario/OneDrive/Documentos/NetBeansProjects/Estacion_Espacial_Sofka/src/Ventanas/ListaPlanetas.java</file>
+            <file>file:/C:/Users/Usuario/OneDrive/Documentos/NetBeansProjects/Estacion_Espacial_Sofka/src/Clases/Mision.java</file>
+            <file>file:/C:/Users/Usuario/OneDrive/Documentos/NetBeansProjects/Estacion_Espacial_Sofka/src/Ventanas/InfoNave.java</file>
+            <file>file:/C:/Users/Usuario/OneDrive/Documentos/NetBeansProjects/Estacion_Espacial_Sofka/src/Clases/NoTripulado.java</file>
+            <file>file:/C:/Users/Usuario/OneDrive/Documentos/NetBeansProjects/Estacion_Espacial_Sofka/src/Ventanas/ListaNaves.java</file>
+            <file>file:/C:/Users/Usuario/OneDrive/Documentos/NetBeansProjects/Estacion_Espacial_Sofka/src/Ventanas/Inicio.java</file>
+            <file>file:/C:/Users/Usuario/OneDrive/Documentos/NetBeansProjects/Estacion_Espacial_Sofka/src/Clases/Lanzadera.java</file>
+            <file>file:/C:/Users/Usuario/OneDrive/Documentos/NetBeansProjects/Estacion_Espacial_Sofka/src/Ventanas/AltaNave.java</file>
+            <file>file:/C:/Users/Usuario/OneDrive/Documentos/NetBeansProjects/Estacion_Espacial_Sofka/src/Clases/Tripulado.java</file>
+            <file>file:/C:/Users/Usuario/OneDrive/Documentos/NetBeansProjects/Estacion_Espacial_Sofka/src/Ventanas/AsignarMision.java</file>
+            <file>file:/C:/Users/Usuario/OneDrive/Documentos/NetBeansProjects/Estacion_Espacial_Sofka/src/BasedeDatos/conexionBD.java</file>
+            <file>file:/C:/Users/Usuario/OneDrive/Documentos/NetBeansProjects/Estacion_Espacial_Sofka/src/Interfaces/InterfazPlaneta.java</file>
+            <file>file:/C:/Users/Usuario/OneDrive/Documentos/NetBeansProjects/Estacion_Espacial_Sofka/src/Interfaces/InterfazMision.java</file>
+            <file>file:/C:/Users/Usuario/OneDrive/Documentos/NetBeansProjects/Estacion_Espacial_Sofka/src/Ventanas/AltaPlaneta.java</file>
+            <file>file:/C:/Users/Usuario/OneDrive/Documentos/NetBeansProjects/Estacion_Espacial_Sofka/src/Controladores/controladorNave.java</file>
+            <file>file:/C:/Users/Usuario/OneDrive/Documentos/NetBeansProjects/Estacion_Espacial_Sofka/src/Controladores/controladorPlaneta.java</file>
+            <file>file:/C:/Users/Usuario/OneDrive/Documentos/NetBeansProjects/Estacion_Espacial_Sofka/src/Ventanas/ListaMisiones.java</file>
+            <file>file:/C:/Users/Usuario/OneDrive/Documentos/NetBeansProjects/Estacion_Espacial_Sofka/src/Clases/PlanetaDestino.java</file>
+            <file>file:/C:/Users/Usuario/OneDrive/Documentos/NetBeansProjects/Estacion_Espacial_Sofka/src/Interfaces/Fabrica.java</file>
+        </group>
+    </open-files>
+</project-private>
